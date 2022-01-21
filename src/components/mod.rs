@@ -1,3 +1,4 @@
 pub mod navbar;
-pub mod footer;
+pub mod banner;
 pub mod header;
+pub mod image;

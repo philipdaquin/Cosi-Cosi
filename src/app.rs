@@ -1,5 +1,5 @@
 use crate::routes::{about::About, home::Home, AppRoute};
-use crate::components::{ navbar::Navbar, footer::Footer, };
+use crate::components::{ navbar::Navbar, banner::Footer, };
 
 
 use yew::prelude::*;

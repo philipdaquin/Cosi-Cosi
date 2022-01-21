@@ -3,6 +3,7 @@ html {
   font-size: 62.5%;
   font-family: Poppins;
   line-height: 1.25;
+  background-color: tomato;
 }
 html p {
   font-weight: 10px;
