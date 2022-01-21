@@ -1,4 +1,4 @@
-use crate::routes::{about::About, home::Home, AppRoute};
+use crate::routes::{about::About, home::home::Home, AppRoute};
 use crate::components::{ navbar::Navbar, footer::Footer, };
 
 
