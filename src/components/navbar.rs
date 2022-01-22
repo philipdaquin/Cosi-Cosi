@@ -38,6 +38,11 @@ impl Component for Navbar {
         html! {
             <>
             <header class="navbar">
+
+
+
+
+
                 <ul>
                     <li>
                         <RouterAnchor<AppRoute> route=AppRoute::Home><a>{"Home"}</a></RouterAnchor<AppRoute>>

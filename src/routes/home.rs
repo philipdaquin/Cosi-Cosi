@@ -22,7 +22,7 @@ impl Component for Home {
         html! {
             <div class="home">
                 <img class="profile-picture" src="assets/images/avatar.jpg" alt="ShironCat's avatar" />
-                <h1>{ "Hello, World WHat ups adasd!asdsdasdas" }</h1>
+                <h1>{ "Hello, World WHat ups adassd!asdsdasdas" }</h1>
             </div>
         }
     }

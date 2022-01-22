@@ -1,5 +1,5 @@
 use crate::routes::{about::About, home::Home, AppRoute};
-use crate::components::{ navbar::Navbar, banner::Footer, };
+use crate::components::{ navbar::Navbar, banner::Footer, header::Header};
 
 
 use yew::prelude::*;
@@ -27,6 +27,7 @@ impl Component for Main {
         html! {
             <>
                 <Navbar/>
+                <Header/>
                 <main class="main">
                     <Router<AppRoute, ()>
                         render = Router::render(|switch: AppRoute| {
