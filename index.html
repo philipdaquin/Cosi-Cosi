@@ -13,8 +13,9 @@
     
     <!-- GSAP -->
     
-    <!-- Swiper JS -->
-
+    <!-- Swiper -->
+    <link rel="stylesheet" href="assets/swiper-bundle.min.css">
+    <script src="assets/swiper-bundle.min.js"></script>
     <!-- Main JS -->
     <script type="module" src="/main.js"></script>
     <!-- BoxIcons -->
@@ -46,10 +47,10 @@
         </header>
         <!-- Main -->
         <main class="main">
-            <div>
-                <div>
+            <div class="swiper-container gallery-top">
+                <div class="swiper-wrapper">
                     <!-- Section 1 -->
-                    <section class="islands">
+                    <section class="islands swiper-slide">
                         <img src="assets/borabora.jpg" alt="" class="island__bg">
                         <div class="island__container bd-container">
                             <div class="islands__data">
@@ -67,8 +68,8 @@
                             </div>
                         </div>
                     </section>
-                    <!-- Section 2 -->
-                    <section class="islands">
+                    <!-- Section 2 --> 
+                    <section class="islands swiper-slide">
                         <img src="assets/bali.jpg" alt="" class="island__bg">
                         <div class="island__container bd-container">
                             <div class="islands__data">
@@ -87,7 +88,7 @@
                         </div>
                     </section>
                     <!-- Section 3 -->
-                    <section class="islands">
+                    <section class="islands swiper-slide">
                         <img src="assets/palawan.jpg" alt="" class="island__bg">
                         <div class="island__container bd-container">
                             <div class="islands__data">
@@ -117,11 +118,11 @@
                 </div>
             </div>
             <!-- COntrols -->
-            <div class="controls">
-                <div class="controls__container">
-                    <img src="assets/borabora.jpg" alt="" class="controls__img">
-                    <img src="assets/borabora.jpg" alt="" class="controls__img">
-                    <img src="assets/borabora.jpg" alt="" class="controls__img">
+            <div class="controls gallery-thumbs">
+                <div class="controls__container swiper-wrapper">
+                    <img src="assets/borabora.jpg" alt="" class="controls__img swiper-slide">
+                    <img src="assets/bali.jpg" alt="" class="controls__img swiper-slide">
+                    <img src="assets/palawan.jpg" alt="" class="controls__img swiper-slide">
                 </div>
             </div>
         </main>

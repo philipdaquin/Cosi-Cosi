@@ -25,3 +25,15 @@ const btnCloseVideo = document.getElementById('popup-close')
 btnCloseVideo.addEventListener('click', () => { 
     popupVideo.classList.remove('show-popup')
 }) 
+
+// Swiper JS
+let  galleryThumbs = new Swiper('.gallery-thumbs', {
+    spaceBetween: 0,
+    slidesPerView: 0,
+  });
+let galleryTop = new Swiper('.gallery-top', {
+  
+  thumbs: {
+    swiper: galleryThumbs
+  }
+});
