@@ -32,7 +32,8 @@ let  galleryThumbs = new Swiper('.gallery-thumbs', {
     slidesPerView: 0,
   });
 let galleryTop = new Swiper('.gallery-top', {
-  
+  effect: 'fade',
+  loop: true, 
   thumbs: {
     swiper: galleryThumbs
   }
